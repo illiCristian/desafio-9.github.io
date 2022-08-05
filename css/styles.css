@@ -108,6 +108,7 @@ header {
   padding-left: 30px;
   font-weight: bold;
   text-shadow: 5px 0 10px;
+  margin-bottom: 5px;
 }
 .logo img {
   width: 60px;
@@ -121,7 +122,6 @@ header {
 }
 .menu__items li {
   border-radius: 3px;
-  margin: 0 5px;
 }
 .menu__items li a {
   padding: 7px 13px;
@@ -149,6 +149,7 @@ header {
 @media (max-width: 952px) {
   .logo {
     padding-left: 10px;
+    margin-bottom: 10px;
   }
   .menu nav ul li {
     font-size: 16px;
@@ -162,6 +163,7 @@ header {
   }
   .logo {
     font-size: 28px;
+    margin-bottom: 10px;
   }
   .checkbtn {
     display: block;
@@ -172,6 +174,7 @@ header {
     top: 20px;
     right: 20px;
     cursor: pointer;
+    margin-top: 8px;
   }
   .menu ul {
     display: block;
